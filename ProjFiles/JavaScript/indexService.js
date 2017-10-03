@@ -3,10 +3,34 @@ function InitializePage()
     var projectsBase = document.getElementById("projects");
     var projects = "<div class=\"projectDiv\">"+
                 "<div>"+
-                    "<h3>Life Improvement Community</h3>"+
+                    "<h3 style=\"height : 43px;\">Life Improvement Community</h3>"+
                 "</div>"+
                 "<div>"+
                     "<img src=\"ProjFiles/Images/LIC1.png\" onclick=\"searchBackClicked(this)\" data-id=\"search\" type=\"image/*\" style=\"height : 220px; width : 100%; float:left; background-color: steelblue;\" id=\"searchBack\" />"+
+                "</div>"+
+            "</div>"+
+        "<div class=\"projectDiv\">"+
+                "<div>"+
+                    "<h3 style=\"height : 43px;\">CorpAlert\n</h3>"+
+                "</div>"+
+                "<div>"+
+                    "<img src=\"ProjFiles/Images/CorpAlert1.png\" onclick=\"searchBackClicked(this)\" data-id=\"search\" type=\"image/*\" style=\"height : 220px; width : 100%; float:left; background-color: steelblue;\" id=\"searchBack\" />"+
+                "</div>"+
+            "</div>"+
+        "<div class=\"projectDiv\">"+
+                "<div>"+
+                    "<h3 style=\"height : 43px;\">OneJob</h3>"+
+                "</div>"+
+                "<div>"+
+                    "<img src=\"ProjFiles/Images/OneJob1.png\" onclick=\"searchBackClicked(this)\" data-id=\"search\" type=\"image/*\" style=\"height : 220px; width : 100%; float:left; background-color: steelblue;\" id=\"searchBack\" />"+
+                "</div>"+
+            "</div>"+
+        "<div class=\"projectDiv\">"+
+                "<div>"+
+                    "<h3 style=\"height : 43px;\">OnePOS</h3>"+
+                "</div>"+
+                "<div>"+
+                    "<img src=\"ProjFiles/Images/OnePOS1.png\" onclick=\"searchBackClicked(this)\" data-id=\"search\" type=\"image/*\" style=\"height : 220px; width : 100%; float:left; background-color: steelblue;\" id=\"searchBack\" />"+
                 "</div>"+
             "</div>";
     projectsBase.innerHTML = projects;
@@ -45,7 +69,7 @@ function loadJSON(callback) {
 
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
-    xobj.open('GET', '../LocalFiles/projects.json', true); // Replace 'my_data' with the path to your file
+    xobj.open('GET', '..\LocalFiles\projects.json', true); // Replace 'my_data' with the path to your file
     xobj.onreadystatechange = function () {
           if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
