@@ -128,12 +128,36 @@ body
 
 .contactDiv
 {
+  width: 99%;
+  float: left;
+  padding-left: 2px;
+  padding-bottom: 4px;
+  padding-right: 2px
+  margin: 0;
+}
+.contactTable
+{
   width: 100%;
   float: left;
   padding: 0;
   margin: 0;
 }
-
+.contactTextBox
+{
+  height:20px;
+  width: 75%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+.contactCommentBox
+{
+  height:50px;
+  width: 75%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
 
 
 .indexPage

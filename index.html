@@ -22,45 +22,51 @@
           <img src="ProjFiles/Images/CoverImage.jpg" onclick="searchBackClicked(this)" data-id="search" type="image/jpg" style="height : 100%; width : 100%; float:left;" id="searchBack" ></img>
         </div>
         <div class="contactDiv">
+            <table class="contactTable" frame="box">
           <form method="post">
             <tr>
               <td>
                 User Name
               </td>
               <td>
-                <input type="text" name="logUName" />
+                <input class="contactTextBox" type="text" name="logUName" />
               </td>
             </tr>
+            <br>
             <tr>
               <td>
                 Password
               </td>
               <td>
-                <input type="password" name="logUPwd"/>
+                <input class="contactTextBox" type="password" name="logUPwd"/>
               </td>
             </tr>
+            <br>
             <tr>
               <td>
                 EmailId
               </td>
               <td>
-                <input type="text" name="logUName" />
+                <input class="contactTextBox" type="text" name="logUName" />
               </td>
             </tr>
+            <br>
             <tr>
               <td>
                 Message
               </td>
               <td>
-                <textarea name="comment">Enter text here...</textarea>
+                <textarea class="contactCommentBox" name="comment">Enter text here...</textarea>
               </td>
             </tr>
+            <br>
             <tr>
               <td>
                 <input type="submit"/>
               </td>
             </tr>
           </form>
+                </table>
         </div>
         <!-- <div class="indexPage">
         </div>
@@ -74,3 +80,12 @@
 </center>
 </body>
 </html>
+
+
+<!--
+<div class="wrapper">
+  <div class="box a">A</div>
+  <div class="box b">B</div>
+  <div class="box c">C</div>
+  <div class="box d">D</div>
+</div>-->
