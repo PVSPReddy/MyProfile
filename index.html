@@ -11,19 +11,22 @@
 <body style="display: block; margin: 0px; padding : 0px; overflow : auto;" bgcolor="lightgreen">
 <center>
       <div class="profile">
-        <div class="profileHeader">
-          <div class="profileHeader" style="float:right">
+        <div class="profileHeaderDiv">
+          <div class="profileHeader">
             <button class="headerButtons" >HOME</button>
-            <button class="headerButtons" >PROJECTS</button>
-            <button class="headerButtons" >RESUME</button>
+            <button class="headerButtons" >CAREER</button>
+            <button class="headerButtons" >PROFILE</button>
+            <button class="headerButtons" >CONTACT</button>
           </div>
         </div>
         <div class="coverPictureDiv">
-          <img src="ProjFiles/Images/CoverImage.jpg" onclick="searchBackClicked(this)" data-id="search" type="image/jpg" style="height : 100%; width : 100%; float:left;" id="searchBack" ></img>
+          <img src="ProjFiles/Images/CoverImage.jpg" onclick="searchBackClicked(this)" data-id="search" type="image/jpg" style="height : 400px; width : 100%; float:left;" id="searchBack" />
+        </div>
+        <div class="">
         </div>
         <div class="contactDiv">
-            <table class="contactTable" frame="box">
-          <form method="post">
+            <table class="contactTable">
+                <form method="post">
             <tr>
               <td>
                 User Name
@@ -32,7 +35,6 @@
                 <input class="contactTextBox" type="text" name="logUName" />
               </td>
             </tr>
-            <br>
             <tr>
               <td>
                 Password
@@ -41,7 +43,6 @@
                 <input class="contactTextBox" type="password" name="logUPwd"/>
               </td>
             </tr>
-            <br>
             <tr>
               <td>
                 EmailId
@@ -50,7 +51,6 @@
                 <input class="contactTextBox" type="text" name="logUName" />
               </td>
             </tr>
-            <br>
             <tr>
               <td>
                 Message
@@ -59,7 +59,6 @@
                 <textarea class="contactCommentBox" name="comment">Enter text here...</textarea>
               </td>
             </tr>
-            <br>
             <tr>
               <td>
                 <input type="submit"/>
@@ -68,14 +67,6 @@
           </form>
                 </table>
         </div>
-        <!-- <div class="indexPage">
-        </div>
-        <div class="indexPage">
-        </div>
-        <div class="indexPage">
-        </div>
-        <div class="indexPage">
-        </div> -->
       </div>
 </center>
 </body>

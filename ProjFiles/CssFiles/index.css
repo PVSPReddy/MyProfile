@@ -89,12 +89,23 @@ body
   margin: 0;
 }
 
-.profileHeader
+.profileHeaderDiv
 {
+  float: left;
   height: 10%;
   width : 100%;
   padding: 0;
   margin: 0;
+}
+.profileHeader
+{
+  float: left;
+/*  height: 10%;or 100vw for width or vh for height*/
+  width : 100%;
+  background-color: skyblue;
+  padding: 0;
+  margin: 0;
+  position: fixed;
 }
 .headerButtons
 {
@@ -132,11 +143,13 @@ body
   float: left;
   padding-left: 2px;
   padding-bottom: 4px;
-  padding-right: 2px
+  padding-right: 2px;
+  padding-top: 5PX;
   margin: 0;
 }
 .contactTable
 {
+  border: 1px solid black;
   width: 100%;
   float: left;
   padding: 0;
