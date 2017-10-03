@@ -137,6 +137,28 @@ body
   margin: 0;
 }
 
+.projectsDiv
+{
+/*  height: 300px;*/
+  width : 100%;
+  float: left;
+  padding: 0;
+  margin: 0;  
+}
+.projectDiv
+{
+  height: 300px;
+  width : 200px;
+  float: left;
+  margin-left: 7px;
+  margin-bottom: 2px;
+  margin-right: 7px;
+  margin-top: 7px;
+  background-color: cadetblue;
+  padding: 0px;
+/*  margin: 0;  */
+}
+
 .careersDiv
 {
 /*  height: 300px;*/

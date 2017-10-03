@@ -2,13 +2,13 @@
 <html style="height:100%;width:100%">
 <head>
         <meta charset="UTF-8">
-<title color="red">welcome</title>
+        <title color="red">PVSPReddy</title>
         <link rel="icon" type="image/jpg" href="ProjFiles\Images\TitleBarIcon.jpg" sizes="16x16">
         <link rel="stylesheet" href="ProjFiles\CssFiles\index.css" type="text/css" media="screen" />
-<!-- <link rel="stylesheet" href="ProjFiles\CssFiles\dropstyle.css" type="text/css" media="screen" />
-        <script src="ProjFiles/JavaScript/screensize.js" type="text/javascript"></script> -->
+<!-- <link rel="stylesheet" href="ProjFiles\CssFiles\dropstyle.css" type="text/css" media="screen" /> -->
+        <script src="ProjFiles/JavaScript/indexService.js" type="text/javascript"></script>
 </head>
-<body style="display: block; margin: 0px; padding : 0px; overflow : auto;" bgcolor="lightgreen">
+<body onload="InitializePage()" style="display: block; margin: 0px; padding : 0px; overflow : auto;" bgcolor="lightgreen">
 <center>
       <div class="profile">
         <div class="profileHeaderDiv">
@@ -22,21 +22,9 @@
         <div class="coverPictureDiv">
           <img src="ProjFiles/Images/CoverImage.jpg" onclick="searchBackClicked(this)" data-id="search" type="image/jpg" style="height : 400px; width : 100%; float:left;" id="searchBack" />
         </div>
-        <div class="careersDiv">
-            <div class="careerDiv">
-                <div>
-                    <h3>DevRabbit</h3>
-                </div>
-                <div>
-                    <img src="ProjFiles/Images/CompanyLogo1.png" onclick="searchBackClicked(this)" data-id="search" type="image/*" style="height : 160px; width : 100%; float:left;" id="searchBack" />
-                </div>
-                <div>
-                    <p>8-2-268/R/5, Sagar Society, 
-                        Road No.2, Banjara Hills, 
-                        Hyderabad-500034, India
-                        Office: +91-40-2355-1445</p>
-                </div>
-            </div>
+        <div class="projectsDiv" id="projects">
+        </div> 
+        <div class="careersDiv" id="careers">
 <!--
             <div class="careerDiv">
                 <div>
@@ -101,12 +89,3 @@
 </center>
 </body>
 </html>
-
-
-<!--
-<div class="wrapper">
-  <div class="box a">A</div>
-  <div class="box b">B</div>
-  <div class="box c">C</div>
-  <div class="box d">D</div>
-</div>-->
