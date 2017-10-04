@@ -1,9 +1,0 @@
-<!--
-<system.webServer>
-    <staticContent>
-        <mimeMap fileExtension=".json" mimeType="application/json" />
-    </staticContent>
-</system.webServer>-->
-<staticContent>
-    <mimeMap fileExtension=".json" mimeType="application/json" />
-</staticContent>
