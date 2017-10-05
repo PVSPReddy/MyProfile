@@ -71,6 +71,36 @@ function loadJSON(data, callback) {
 
 function OptionClicked(sender)
 {
-    var value = sender.data-id;
+    var value = sender.dataset.id;
+    var btnHome = document.getElementById("btnHome");
+    btnHome.style.backgroundColor = 'skyblue';
+    var btnCareer = document.getElementById("btnCareer");
+    btnCareer.style.backgroundColor = 'skyblue';
+    var btnProfile = document.getElementById("btnProfile");
+    btnProfile.style.backgroundColor = 'skyblue';
+    var btnContact = document.getElementById("btnContact");
+    btnContact.style.backgroundColor = 'skyblue';
+    sender.style.backgroundColor = 'red';
+    var owner;
+    if(value == "home")
+    {
+        
+    }
+    else if(value == "career")
+    {
+         
+    }
+    else if(value == "profile")
+    {
+           
+    }
+    else if(value == "contact")
+    {
+            
+    }
+    else 
+    {
+            
+    }
 }
 
