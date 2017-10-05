@@ -1,3 +1,4 @@
+//indexservice.js
 function InitializePage()
 {
     getProjectsData("projects");
@@ -82,76 +83,174 @@ function OptionClicked(sender)
     btnContact.style.backgroundColor = 'skyblue';
     sender.style.backgroundColor = 'red';
     var scrollTime = 5000;
-    var posFrom,posTo;
+    var x,y;
     if(value == "home")
     {
         var myDiv = document.getElementById('coverPic');
-        posTo = myDiv.offsetTop;
-        //x = myDiv.offsetLeft;
+        y = myDiv.offsetTop;
+        x = myDiv.offsetLeft;
+        //document.body.animate(scrollTo(document.body, myDiv.offsetTop, scrollTime));
+        //scrollTo(document.body, myDiv.offsetTop, scrollTime);
     }
     else if(value == "career")
     {
         var myDiv = document.getElementById('projects');
-        posTo = myDiv.offsetTop;
-        //x = myDiv.offsetLeft;
+        y = myDiv.offsetTop;
+        x = myDiv.offsetLeft;
+        //scrollTo(document.body, myDiv.offsetTop, scrollTime);
     }
     else if(value == "profile")
     {
         var myDiv = document.getElementById('careers');
-        posTo = myDiv.offsetTop;
-        //x = myDiv.offsetLeft;
+        y = myDiv.offsetTop;
+        x = myDiv.offsetLeft;
+        //scrollTo(document.body, myDiv.offsetTop, scrollTime);   
     }
     else if(value == "contact")
     {
         var myDiv = document.getElementById('contact');
-        posTo = myDiv.offsetTop;
-        //x = myDiv.offsetLeft;
+        y = myDiv.offsetTop;
+        x = myDiv.offsetLeft;
+        //scrollTo(document.body, myDiv.offsetTop, scrollTime);   
     }
     else 
     {
             
     }
-    posFrom=window.scrollY;
-    var movementDirection;
-    if(posFrom > posTo)
-    {
-        var offSets = posFrom-posTo;
-        var intervals = offSets/10;
-        movementDirection = "up";
-    }
-    else
-    {
-        var offSets = posTo-posFrom;
-        var intervals = offSets/10;
-        movementDirection = "down";
-    }
-    
+//    document.body.scroll({
+//        top: x,
+//        left: 0,
+//        behavior: 'smooth'
+//    });
+    //x = document.body.offsetTop;
+    x=window.scrollY;
+    z = 1500;
+    //document.body.animate({scroll}, 4000)
+    //slideToDiv(x,y,z);
     var id = setInterval(frame, 10);
     function frame()
     {
-        if(movementDirection == "up")
+        if(x>y)
         {
-            if(posTo<=posFrom)
+            var offSets = x-y;
+            var intervals = offSets/10;
+            if(y<=x)
             {
-                scrollTo(document.body, posFrom, 1);
-                posFrom -= 10;
+                scrollTo(document.body, x, 1);
+                x -= 10;
             }
             else
             {
                 clearInterval(id);
             }
+//            for(; y<=x; )
+//            {
+//                setTimeout(sliding(x), 10000);
+//                x -= 10;
+//            }
         }
         else
         {
-            if(posTo>=posFrom)
+            var offSets = y-x;
+            var intervals = offSets/10;
+            if(y<=x)
             {
-                scrollTo(document.body, posFrom, 1);
-                posFrom += 10;
+                scrollTo(document.body, x, 1);
+                x += 10;
             }
             else
             {
                 clearInterval(id);
             }
+//            for(; y>=x; )
+//            {
+//                setTimeout(sliding(x), 10000);
+//                x += 10;
+//            }
+        }
+    }
+    
+    
+    
+    
+}
+
+
+function slideToDiv(x,y,z)
+{
+    if(x>y)
+    {
+        var offSets = x-y;
+        var intervals = offSets/10;
+        for(; y<=x; )
+        {
+            setTimeout(sliding(x), 10000);
+            //scrollTo(document.body, x+interval, 1);
+            //window.setTimeout(scrollTo(document.body, x, 100), 100);
+            //scrollTo(document.body, x, 1);
+            x -= 10;
+        }
+    }
+    else
+    {
+        var offSets = y-x;
+        var intervals = offSets/10;
+        for(; y>=x; )
+        {
+            setTimeout(sliding(x), 10000);
+            //scrollTo(document.body, x+interval, 1);
+            //window.setTimeout(scrollTo(document.body, x, 100), 100);
+            //scrollTo(document.body, x, 1);
+            x += 10;
         }
     }
 }
+function sliding(v)
+{
+//    window.setTimeout(scrollTo(document.body, x, 100), 100);
+    scrollTo(document.body, v, 1);
+    return true;
+}
+
+function slideTo(x, y, time, decelRate, interval) {
+	if (!decelRate)
+		decelRate = 1;
+	if (!interval)
+		interval = 25;
+	slideTo_h(x, y, time * decelRate, decelRate, interval, (new Date()).getTime());
+}
+
+function slideTo_h(x, y, time, decelRate, interval, dateTime) {
+	if (time <= 0) {
+		window.scrollTo(x, y);
+		return;
+	}
+	var delay = interval + dateTime - (new Date()).getTime();
+	setTimeout(function() { slideTo_h(x, y, time - interval * decelRate, decelRate, interval, dateTime + interval); }, (delay > 0 ? delay : 0));
+	var m = interval / time;
+	var rateX = (x - (document.documentElement.scrollLeft || document.body.scrollLeft)) * m;
+	var rateY = (y - (document.documentElement.scrollTop || document.body.scrollTop)) * m;
+	window.scrollBy(rateX, rateY);
+}
+
+//function slideTo(x, y, time, decelRate, interval) {
+//	if (!decelRate)
+//		decelRate = 1;
+//	if (!interval)
+//		interval = 25;
+//	slideTo_h(x, y, time * decelRate, decelRate, interval, (new Date()).getTime());
+//}
+//
+//function slideTo_h(x, y, time, decelRate, interval, dateTime) {
+//	if (time <= 0) {
+//		window.scrollTo(x, y);
+//		return;
+//	}
+//	var now = (new Date()).getTime();
+//	setTimeout(function() { slideTo_h(x, y, time - interval * decelRate, decelRate, interval, dateTime + interval); }, interval + dateTime - now);
+//	var m = interval / time;
+//	var rateX = (x - window.scrollX) * m;
+//	var rateY = (y - window.scrollY) * m;
+//	window.scrollBy(rateX, rateY);
+//}
+
