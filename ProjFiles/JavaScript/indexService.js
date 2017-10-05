@@ -113,20 +113,17 @@ function OptionClicked(sender)
     }
     posFrom=window.scrollY;
     var movementDirection;
+    var posChangeInterval=20;
     if(posFrom > posTo)
     {
-        var offSets = posFrom-posTo;
-        var intervals = offSets/10;
         movementDirection = "up";
     }
     else
     {
-        var offSets = posTo-posFrom;
-        var intervals = offSets/10;
         movementDirection = "down";
     }
     
-    var id = setInterval(frame, 10);
+    var id = setInterval(frame, 1);
     function frame()
     {
         if(movementDirection == "up")
@@ -134,7 +131,7 @@ function OptionClicked(sender)
             if(posTo<=posFrom)
             {
                 scrollTo(document.body, posFrom, 1);
-                posFrom -= 10;
+                posFrom -= posChangeInterval;
             }
             else
             {
@@ -146,7 +143,7 @@ function OptionClicked(sender)
             if(posTo>=posFrom)
             {
                 scrollTo(document.body, posFrom, 1);
-                posFrom += 10;
+                posFrom += posChangeInterval;
             }
             else
             {
