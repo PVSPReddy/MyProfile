@@ -66,3 +66,11 @@ function loadJSON(data, callback) {
     };
     xobj.send(null);  
  }
+
+
+
+function OptionClicked(sender)
+{
+    var value = sender.data-id;
+}
+
