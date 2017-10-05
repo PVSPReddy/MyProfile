@@ -13,14 +13,17 @@
       <div class="profile">
         <div class="profileHeaderDiv">
           <div class="profileHeader">
-            <button class="headerButtons" >HOME</button>
-            <button class="headerButtons" >CAREER</button>
-            <button class="headerButtons" >PROFILE</button>
-            <button class="headerButtons" >CONTACT</button>
+            <button class="headerButtons" onclick="HomeClicked()" >HOME</button>
+            <button class="headerButtons" onclick="CareerClicked()" >CAREER</button>
+            <button class="headerButtons" onclick="ProfileClicked()" >PROFILE</button>
+            <button class="headerButtons" onclick="ContactClicked()" >CONTACT</button>
           </div>
         </div>
         <div class="coverPictureDiv">
           <img src="ProjFiles/Images/CoverImage.jpg" onclick="searchBackClicked(this)" data-id="search" type="image/jpg" style="height : 400px; width : 100%; float:left;" id="searchBack" />
+          <div class="nameDiv"> 
+              <h3> - This is a test project</h3>
+          </div>
         </div>
         <div class="projectsDiv" id="projects">
         </div> 
