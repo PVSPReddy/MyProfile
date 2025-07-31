@@ -1,0 +1,34 @@
+{ 
+    "Education": [
+        {
+            "InstituteName": "Sai Teja Vidyanikethan",
+            "AffilatedTo": "Board of Secondary Education Andhra Pradesh",
+            "Start Date": "2006 - June - 9",
+            "End Date": "2007 - May - 10",
+            "MainSubjects": "",
+            "percentage": "80.4",
+            "address": "Saiteja Street, Rayavaram, Andhra Pradesh 533346. Ph: 98499 20022",
+            "image":"Education/saiteja1.png"
+        },
+        {
+            "InstituteName": "Aditya Junior College",
+            "AffilatedTo": "Board of Intermediate Education Andhra Pradesh",
+            "Start Date": "2007 - June - 9",
+            "End Date": "2009 - April - 24",
+            "MainSubjects": "Maths, Physics, Chemistry",
+            "percentage": "88.7",
+            "address": "Srinagar, Kakinada, Andhra Pradesh 533003. Ph: 97040 76663",
+            "image":"Education/aditya1.png"
+        },
+        {
+            "InstituteName": "Aditya Engieering College",
+            "AffilatedTo": "Jawaharlal Nehru Technological University, Kakinada",
+            "Start Date": "2009 - September - 9",
+            "End Date": "2013 - April - 10",
+            "MainSubjects": "B.Tech Civil Engineering",
+            "percentage": "81.37",
+            "address": "ADB Road, Aditya Nagar, Surampalem, Andhra Pradesh 533437. Ph: 99498 76662",
+            "image":"Education/aditya1.png"
+        }
+    ]
+}

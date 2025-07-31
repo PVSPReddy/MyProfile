@@ -1,3 +1,25 @@
-{"Careers":[
-    {"CompanyName":"DevRabbit","CompanyImage":"DevRabbit1.png", "CompanyAddress":"8-2-268/R/5, Sagar Society, Road No.2, Banjara Hills, Hyderabad-500034, India Office: +91-40-2355-1445"}
-]}
+{
+    "Careers": [
+        {
+            "CompanyName": "DevRabbit IT Solutions PVT LTD",
+            "CompanyImage": "Companies/DevRabbit1.png",
+            "Start Date": "2016 - June - 1",
+            "End Date": "2018 - September - 28",
+            "CompanyAddress": "8-2-268/R/5, Sagar Society, Road No.2, Banjara Hills, Hyderabad-500034, India Office: +91-40-2355-1445"
+        },
+        {
+            "CompanyName": "Cognizant Technology Solutions India Private Limited",
+            "CompanyImage": "Companies/Cognizant3.jpg",
+            "Start Date": "2018 - October - 10",
+            "End Date": "2022 - Feburary - 11",
+            "CompanyAddress": "Office: 115/535, Old Mahabalipuram Road, Okkiam Thoraipakkam, Chennai-600097"
+        },
+        {
+            "CompanyName": "HTC Global Services (India) Private Limited",
+            "CompanyImage": "Companies/HTC1.png",
+            "Start Date": "2022 - Feburary - 14",
+            "End Date": "",
+            "CompanyAddress": "SDF-II, Phase-II,MEPZ, Tambaram, Chennai-600 045, INDIA, Tel : +91 44 2262 3522, Fax : +91 44 2262 7713"
+        }
+    ]
+}

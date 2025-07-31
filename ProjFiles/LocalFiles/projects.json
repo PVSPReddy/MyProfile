@@ -1,6 +1,195 @@
-{"Projects":[
-    {"projectName":"Life Improvement Community","projectImage":"LIC1.png"},
-    {"projectName":"Corp Alert","projectImage":"CorpAlert1.png"},
-    {"projectName":"OneJob","projectImage":"OneJob1.png"},
-    {"projectName":"OnePOS","projectImage":"OnePOS1.png"}
-]}
+{
+    "Projects": [
+        {
+            "projectName": "Life Improvement Community",
+            "description": "helps store employees to keep track of the upcoming and current orders and allows them to stage, audit and update the status of the order placed by vendors",
+            "developed_for_devices": "Android/iOS",
+            "programming_languages_used": "C#",
+            "worked_dates": "June 2016 - September 2016",
+            "tech_used": "Xamarin",
+            "project_type": "Healthcare B2C",
+            "company_name": "DevRabbit IT Solutions PVT LTD",
+            "client": "",
+            "roles_and_responsibilities": [
+                "Involved in UI designing using Xaml and C#.",
+                "Involved in local database designing using SQLite.",
+                "Involved in R&D work for audio file streaming with simple graphical animations to show audio file progress.",
+                "Involved in R&D work for payment gateway for Stripe payment.",
+                "Involved in the integrations of local notifications and toast messages.",
+                "Did coding to select/take images from camera and gallery using XLABS plugin.",
+                "Involved in the integration of HTTP Web Services.",
+                "Involved in manual/Unit testing."
+            ],
+            "projectImage": "Projects/android_ios_placeholder.png"
+        },
+        {
+            "projectName": "IncAlert",
+            "description": "Helps U.S. users manage bill payments for Corporations and LLCs, reminding them before due dates to avoid penalties.",
+            "developed_for_devices": "Android/iOS",
+            "programming_languages_used": "C#",
+            "worked_dates": "December 2016 - August 2017",
+            "tech_used": "Xamarin",
+            "project_type": "Utilities B2C",
+            "company_name": "DevRabbit IT Solutions PVT LTD",
+            "client": "",
+            "roles_and_responsibilities": [
+                "Involved in UI designing using Xaml and C#.",
+                "Involved in local database designing using SQLite.",
+                "Involved in R&D work for Push notifications using GCM and APNS.",
+                "Did coding to select/take images from camera and gallery using XLABS plugin.",
+                "Involved in manual/Unit testing."
+            ],
+            "projectImage": "Projects/android_ios_placeholder.png"
+        },
+        {
+            "projectName": "OneJOB",
+            "description": "Provides job seekers and job providers with matches based on their current location.",
+            "developed_for_devices": "Android/iOS",
+            "programming_languages_used": "C#",
+            "worked_dates": "November 2017 - December 2017",
+            "tech_used": "Xamarin",
+            "project_type": "Productivity B2C",
+            "company_name": "DevRabbit IT Solutions PVT LTD",
+            "client": "",
+            "roles_and_responsibilities": [
+                "Involved in UI designing using Xaml and C#.",
+                "Involved in local database designing using SQLite.",
+                "Involved in R&D work for Map Navigation using TK Custom Maps plugin.",
+                "Did coding to select/take images from camera and gallery using XLABS plugin.",
+                "Involved in the integration of HTTP Web Services.",
+                "Involved in manual/Unit testing."
+            ],
+            "projectImage": "Projects/android_ios_placeholder.png"
+        },
+        {
+            "projectName": "OnePOS Inventory",
+            "description": "This app deals with general stores, acting as a link between the main store and its branches. It displays stock data and allows the retailer to place product orders.",
+            "developed_for_devices": "Android/iOS",
+            "programming_languages_used": "C#",
+            "worked_dates": "January 2018 - February 2018",
+            "tech_used": "Xamarin",
+            "project_type": "ECommerce B2C",
+            "company_name": "DevRabbit IT Solutions PVT LTD",
+            "client": "",
+            "roles_and_responsibilities": [
+                "Involved in UI designing using Xaml and C#.",
+                "Involved in local database designing using SQLite.",
+                "Did coding to select/take images from camera and gallery using XLABS plugin.",
+                "Involved in the integration of HTTP Web Services.",
+                "Involved in manual/Unit testing."
+            ],
+            "projectImage": "Projects/android_ios_placeholder.png"
+        },
+        {
+            "projectName": "SuiteAmerica",
+            "description": "This is an Apple TV application that helps company employees transferred to new locations find nearby places, restaurants, and other data in the allotted room.",
+            "developed_for_devices": "Apple TV",
+            "programming_languages_used": "C#",
+            "worked_dates": "April 2018 - August 2018",
+            "tech_used": "Xamarin",
+            "project_type": "Utilities B2C",
+            "company_name": "DevRabbit IT Solutions PVT LTD",
+            "client": "",
+            "roles_and_responsibilities": [],
+            "projectImage": "Projects/ios_app_logo_placeholder.png"
+        },
+        {
+            "projectName": "ION Healing & ION Support",
+            "description": "Health app for tracking wounds and health conditions for insurance claims.",
+            "developed_for_devices": "Android/iOS",
+            "programming_languages_used": "C#",
+            "worked_dates": "October 2018 - September 2019",
+            "tech_used": "Xamarin.Forms, Syncfusion",
+            "project_type": "Healthcare B2C",
+            "company_name": "Cognizant Technology Solutions India Private Limited",
+            "client": "",
+            "roles_and_responsibilities": [
+                "Developed mobile application using Xamarin.Forms (Android and iOS).",
+                "Attended scrum meetings with the team.",
+                "UI design and REST API integrations.",
+                "Developed PDF viewing and email/print functionality without third-party tools.",
+                "R&D for Xamarin Forms menu options per list item.",
+                "Bug fixes."
+            ],
+            "projectImage": "Projects/android_ios_placeholder.png"
+        },
+        {
+            "projectName": "APS Safe applications",
+            "description": "Safety app to manage hazards and emergency support for workers.",
+            "developed_for_devices": "Android/iOS",
+            "programming_languages_used": "C#, XAML",
+            "worked_dates": "September 2019 - May 2020",
+            "tech_used": "Xamarin.Forms, MVVM",
+            "project_type": " B2C",
+            "company_name": "Cognizant Technology Solutions India Private Limited",
+            "client": "Arizona Public Service",
+            "roles_and_responsibilities": [
+                "Developed mobile application using Xamarin.Forms (Android and iOS).",
+                "Attended scrum meetings with the team.",
+                "R&D on grid-style gallery with selection and deletion features.",
+                "Developed PDF viewing for iOS without third-party tools.",
+                "Bug fixing.",
+                "Majorly involved in screen design and development using XAML and MVVM patterns."
+            ],
+            "projectImage": "Projects/android_ios_placeholder.png"
+        },
+        {
+            "projectName": "TSC",
+            "description": "ECommerce app supporting loyalty schemes and gift cards.",
+            "developed_for_devices": "Android/iOS",
+            "programming_languages_used": "JavaScript",
+            "worked_dates": "July 2020 - May 2021",
+            "tech_used": "React Native, Redux, Sagas",
+            "project_type": "ECommerce B2C",
+            "company_name": "Cognizant Technology Solutions India Private Limited",
+            "client": "Tractor Supply Company",
+            "roles_and_responsibilities": [
+                "Developed mobile application using React Native (Android and iOS).",
+                "Attended scrum meetings with the team.",
+                "Majorly involved in UI design (using JavaScript) and REST API integrations.",
+                "Used Sagas for API calls.",
+                "Used Redux for state management.",
+                "Bug fixes.",
+                "Worked on accessibility implementation."
+            ],
+            "projectImage": "Projects/android_ios_placeholder.png"
+        },
+        {
+            "projectName": "PETCO",
+            "description": "ECommerce app for pet products with online booking and payments.",
+            "developed_for_devices": "Android/iOS",
+            "programming_languages_used": "C#, XAML",
+            "worked_dates": "June 2021 - February 2022",
+            "tech_used": "Xamarin.Forms",
+            "project_type": "ECommerce B2C",
+            "company_name": "Cognizant Technology Solutions India Private Limited",
+            "client": "Petco",
+            "roles_and_responsibilities": [
+                "Developed mobile application using Xamarin.Forms (Android and iOS).",
+                "Attended scrum meetings with the team.",
+                "Majorly involved in UI design (using XAML and C#) and REST API integrations.",
+                "Bug fixes.",
+                "Worked on accessibility implementation."
+            ],
+            "projectImage": "Projects/android_ios_placeholder.png"
+        },
+        {
+            "projectName": "Meijer Orderfulfilment Staging and Collect Application",
+            "description": "Helps store employees track and manage orders using Zebra Android devices.",
+            "developed_for_devices": "Android",
+            "programming_languages_used": "C#, JavaScript",
+            "worked_dates": "March 2022 - Present",
+            "tech_used": ".NET MAUI, React Native, Azure AD",
+            "project_type": "ECommerce B2B",
+            "company_name": "HTC Global Services (India) Private Limited",
+            "client": "Meijer",
+            "roles_and_responsibilities": [
+                "Developed mobile application using React Native Android.",
+                "Migrated Application to .NET MAUI Android.",
+                "Worked on integration of Azure AD.",
+                "Worked with Android powered Zebra Devices (TC52x, PS20J, PS30)."
+            ],
+            "projectImage": "Projects/android_app_logo_placeholder.png"
+        }
+    ]
+}
